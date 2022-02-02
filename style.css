@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+.button {
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* text-align: center; */
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+  
+.button:hover {
+    background-color: darkblue;
+    border: 2px solid lightblue;
+    transition: all 0.3s;
+}
+  
+.button:active {
+    background-color: lightblue;
+    transform: translateY(5px);
+}
+
+
+#jokes {
+    width: 75%;
+    text-align: center;
+}
+
+#img {
+    margin-top: 20px;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+}
